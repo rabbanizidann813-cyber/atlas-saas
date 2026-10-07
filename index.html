@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATLAS - Autonomous AI Agent SaaS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-black text-white font-sans selection:bg-white selection:text-black">
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 flex items-center justify-between px-6 py-4 bg-black/90 backdrop-blur-md border-b border-neutral-800">
+        <div class="flex items-center space-x-3">
+            <div class="w-8 h-8 rounded-lg bg-white text-black flex items-center justify-center font-black text-lg">A</div>
+            <span class="font-bold text-xl tracking-widest uppercase">ATLAS</span>
+        </div>
+        <div class="hidden md:flex items-center space-x-8 text-sm text-neutral-400">
+            <a href="#home" class="hover:text-white transition">Beranda</a>
+            <a href="#pricing" class="hover:text-white transition">Harga</a>
+        </div>
+        <div>
+            <a href="#pricing" class="bg-white text-black px-4 py-2 rounded-lg text-sm font-bold hover:bg-neutral-200 transition">Mulai</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="px-6 pt-24 pb-16 text-center max-w-5xl mx-auto">
+        <h1 class="text-4xl md:text-6xl font-black tracking-tight mb-6">Autonomous AI Agent<br>Untuk Efisiensi Bisnis Global.</h1>
+        <p class="text-neutral-400 max-w-xl mx-auto mb-10 text-sm md:text-base font-light">
+            ATLAS didukung AI MUSA untuk mengotomatisasi alur kerja agensi, manajemen klien, dan skala pendapatan hingga target optimal.
+        </p>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="px-6 py-20 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-black mb-4">Harga Langganan Global</h2>
+            <p class="text-neutral-400 text-sm font-light">Pilih paket fleksibel dari $10 hingga $200 per bulan.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Starter -->
+            <div class="rounded-2xl border border-neutral-800 bg-neutral-950 p-8 flex flex-col justify-between">
+                <div>
+                    <div class="text-xs font-mono text-neutral-400 uppercase mb-2">Tier 01</div>
+                    <h3 class="text-2xl font-bold mb-2">Starter</h3>
+                    <div class="text-4xl font-black mb-6">$10 <span class="text-sm font-normal text-neutral-500">/bln</span></div>
+                    <ul class="space-y-3 text-sm text-neutral-300 mb-8">
+                        <li>✓ Manajemen 5 Klien</li>
+                        <li>✓ Akses MUSA Standar</li>
+                    </ul>
+                </div>
+                <a href="#" class="w-full py-3 text-center rounded-xl bg-neutral-900 border border-neutral-700 hover:bg-neutral-800 font-bold text-sm transition">Pilih $10</a>
+            </div>
+
+            <!-- Pro -->
+            <div class="rounded-2xl border-2 border-white bg-neutral-900 p-8 flex flex-col justify-between relative shadow-2xl">
+                <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-white text-black text-xs px-3 py-1 rounded-full font-bold uppercase">Paling Populer</div>
+                <div>
+                    <div class="text-xs font-mono text-neutral-400 uppercase mb-2">Tier 02</div>
+                    <h3 class="text-2xl font-bold mb-2">Atlas Pro</h3>
+                    <div class="text-4xl font-black mb-6">$75 <span class="text-sm font-normal text-neutral-400">/bln</span></div>
+                    <ul class="space-y-3 text-sm text-neutral-200 mb-8">
+                        <li>✓ Klien & Proyek Tanpa Batas</li>
+                        <li>✓ <b>MUSA AI Agent Full Access</b></li>
+                        <li>✓ Keuangan Otomatis</li>
+                    </ul>
+                </div>
+                <a href="#" class="w-full py-3 text-center rounded-xl bg-white text-black hover:bg-neutral-200 font-bold text-sm transition">Pilih $75</a>
+            </div>
+
+            <!-- Enterprise -->
+            <div class="rounded-2xl border border-neutral-800 bg-neutral-950 p-8 flex flex-col justify-between">
+                <div>
+                    <div class="text-xs font-mono text-neutral-400 uppercase mb-2">Tier 03</div>
+                    <h3 class="text-2xl font-bold mb-2">Enterprise</h3>
+                    <div class="text-4xl font-black mb-6">$200 <span class="text-sm font-normal text-neutral-500">/bln</span></div>
+                    <ul class="space-y-3 text-sm text-neutral-300 mb-8">
+                        <li>✓ Semua Fitur Atlas Pro</li>
+                        <li>✓ Tim Tanpa Batas</li>
+                    </ul>
+                </div>
+                <a href="#" class="w-full py-3 text-center rounded-xl bg-neutral-900 border border-neutral-700 hover:bg-neutral-800 font-bold text-sm transition">Pilih $200</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-neutral-800 py-8 text-center text-xs text-neutral-500 font-mono">
+        <p>© 2026 ATLAS Platform. Autonomous Business Intelligence.</p>
+    </footer>
+</body>
+</html>
