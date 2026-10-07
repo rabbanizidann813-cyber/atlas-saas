@@ -7,20 +7,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="min-h-screen bg-black text-white font-sans selection:bg-white selection:text-black">
-    <!-- Navbar -->
-    <nav class="sticky top-0 z-50 flex items-center justify-between px-6 py-4 bg-black/90 backdrop-blur-md border-b border-neutral-800">
-        <div class="flex items-center space-x-3">
-            <div class="w-8 h-8 rounded-lg bg-white text-black flex items-center justify-center font-black text-lg">A</div>
-            <span class="font-bold text-xl tracking-widest uppercase">ATLAS</span>
-        </div>
-        <div class="hidden md:flex items-center space-x-8 text-sm text-neutral-400">
-            <a href="#home" class="hover:text-white transition">Beranda</a>
-            <a href="#pricing" class="hover:text-white transition">Harga</a>
-        </div>
-        <div>
-            <a href="#pricing" class="bg-white text-black px-4 py-2 rounded-lg text-sm font-bold hover:bg-neutral-200 transition">Mulai</a>
-        </div>
-    </nav>
 
     <!-- Hero Section -->
     <section id="home" class="px-6 pt-24 pb-16 text-center max-w-5xl mx-auto">
@@ -28,8 +14,23 @@
         <p class="text-neutral-400 max-w-xl mx-auto mb-10 text-sm md:text-base font-light">
             ATLAS didukung AI MUSA untuk mengotomatisasi alur kerja agensi, manajemen klien, dan skala pendapatan hingga target optimal.
         </p>
-    </section>
-
+    </section>    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 flex items-center justify-between px-6 py-4 bg-black/90 backdrop-blur-md border-b border-neutral-800">
+        <div class="flex items-center space-x-3">
+            <div class="flex items-center justify-center w-9 h-9 bg-neutral-950 border border-neutral-700 rounded-lg shadow-xl">
+                <span class="text-xl font-black text-white scale-110">✦</span>
+            </div>
+            <span class="text-lg font-extrabold tracking-widest text-white">ATLAS</span>
+        </div>
+        <div class="hidden md:flex items-center space-x-6 text-sm text-neutral-400">
+            <a href="#home" class="hover:text-white transition">Beranda</a>
+            <a href="#pricing" class="hover:text-white transition">Harga</a>
+        </div>
+        <div>
+            <a href="#pricing" class="px-4 py-2 text-xs font-bold bg-white text-black rounded-full hover:bg-neutral-200 transition">Mulai</a>
+        </div>
+    </nav>
+    
     <!-- Pricing Section -->
     <section id="pricing" class="px-6 py-20 max-w-7xl mx-auto">
         <div class="text-center mb-16">
